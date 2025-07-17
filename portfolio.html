@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="scroll-smooth bg-gradient-to-tr from-blue-100 via-purple-100 to-pink-100 text-gray-800"
+  >
+    <!-- Navbar -->
+    <header class="bg-gray-900 text-white shadow sticky top-0 z-50">
+      <nav class="container mx-auto flex justify-between items-center p-4">
+        <h1 class="text-2xl font-bold text-#fae8f7-700">My Portfolio</h1>
+        <ul class="flex space-x-6 font-medium">
+          <li><a href="#home" class="hover:text-blue-500">Home</a></li>
+          <li><a href="#about" class="hover:text-blue-500">About</a></li>
+          <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+          <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+
+    <section
+      id="home"
+      class="min-h-screen flex flex-col md:flex-row items-center justify-between px-8 md:px-20 py-16 bg-gradient-to-r from-indigo-100 via-white to-blue-200"
+    >
+      <div
+        class="w-full flex items-center flex-col justify-start md:w-1/2 mb-12 md:mb-0"
+      >
+        <h2 class="text-4xl md:text-5xl font-bold mb-6">
+          Hi, I'm <span class="text-indigo-600">Vignesh Poojary</span>
+        </h2>
+        <p class="text-2xl text-blue-600 font-semibold mb-2">
+          Frontend Web Developer
+        </p>
+        <p class="italic text-gray-700 mb-4">
+          "Transforming ideas into beautiful digital experiences."
+        </p>
+        <a
+          href="resume.pdf"
+          download
+          class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg shadow-md transition duration-300"
+          >Download Resume</a
+        >
+      </div>
+      <div class="flex-1 mt-20 md:mt-0 flex items-center justify-center">
+        <img
+          src="/images/programmer-3d-character-game-developer-coder-guy-uses-computer-laptop-ai-generative_955712-8381.avif"
+          alt="Vignesh Avatar"
+          class="w-96 h-96 object-cover rounded-full hover:scale-125 hover:shadow-lg hover:shadow-blue-600 transition duration-1000"
+        />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-4 bg-white">
+      <div class="container mx-auto max-w-4xl">
+        <h2 class="text-3xl font-bold mb-6 text-center text-blue-700">
+          About Me
+        </h2>
+        <p class="mb-6 text-gray-700 text-center">
+          I'm a passionate frontend developer who loves crafting clean and
+          functional web interfaces.
+        </p>
+        <div class="mb-8">
+          <h3 class="text-xl font-semibold mb-4 text-gray-800">Skills</h3>
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <span class="bg-blue-100 p-2 rounded-lg text-center">HTML</span>
+            <span class="bg-blue-100 p-2 rounded-lg text-center">CSS</span>
+            <span class="bg-blue-100 p-2 rounded-lg text-center"
+              >JavaScript</span
+            >
+            <span class="bg-blue-100 p-2 rounded-lg text-center"
+              >Tailwind CSS</span
+            >
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-4 text-gray-800">
+            Education & Experience
+          </h3>
+          <div class="space-y-4">
+            <div class="bg-gray-100 p-8 rounded shadow">
+              <h4 class="font-bold">BCA – Mangalore University</h4>
+              <p class="text-sm text-gray-600">2023 - 2026</p>
+              <p class="text-gray-700">
+                Studying Bacholres of Computer Application .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 px-4 bg-gray-50">
+      <div class="container mx-auto max-w-6xl">
+        <h2 class="text-3xl font-bold text-center text-blue-700 mb-10">
+          Projects
+        </h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div
+            class="bg-white flex flex-col items-center p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105"
+          >
+            <img
+              src="./images/Amazon-Logo.png"
+              alt="Amazon Clone"
+              class="mb-4 rounded w-40"
+            />
+            <h3 class="font-bold text-2xl">Amazon Clone Project</h3>
+            <p class="text-sm text-gray-950 mt-3 mb-1.5 font-semibold">
+              Built using HTML and CSS
+            </p>
+            <p class="text-sm text-gray-600">
+              A fully responsive front-end clone of the Netflix landing page
+              built using HTML and CSS. This project is created purely for
+              learning and practice purposes to improve UI development skills.
+            </p>
+            <a
+              href="https://github.com/VigneshPoojary-05/Amazon-Clone.git"
+              class="text-blue-600 text-sm underline mt-2 inline-block"
+              >GitHub Repo</a
+            >
+          </div>
+          <div
+            class="bg-white flex flex-col items-center p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105"
+          >
+            <img
+              src="/images/Netflix-logo.jpg"
+              alt="Netflix Clone"
+              class="mb-4 rounded w-40"
+            />
+            <h3 class="font-bold text-2xl">Netflix Clone Project</h3>
+            <p class="text-sm text-gray-950 mt-3 mb-1.5 font-semibold">
+              Built using HTML and CSS3
+            </p>
+            <p class="text-sm text-gray-600">
+              A fully responsive front-end clone of the Netflix landing page
+              built using HTML and CSS. This project is created purely for
+              learning and practice purposes to improve UI development skills.
+            </p>
+            <a
+              href="https://github.com/VigneshPoojary-05/Netflix-Clone.git"
+              class="text-blue-600 text-sm underline mt-2 inline-block"
+              >GitHub Repo</a
+            >
+          </div>
+
+          <div
+            class="bg-white flex flex-col items-center p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105"
+          >
+            <img
+              src="./images/college wallah logo.jpg"
+              alt="Project 3"
+              class="mb-4 rounded w-40"
+            />
+            <h3 class="font-bold text-2xl">Website Project</h3>
+            <p class="text-sm text-gray-950 mt-3 mb-1.5 font-semibold">
+              Built using HTML and CSS3
+            </p>
+            <p class="text-sm text-gray-600">
+              A fully responsive front-end clone of the Netflix landing page
+              built using HTML and CSS. This project is created purely for
+              learning and practice purposes to improve UI development skills.
+            </p>
+            <a
+              href="#"
+              class="text-blue-600 text-sm underline mt-2 inline-block"
+              >GitHub Repo</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-4 bg-white">
+      <div class="container mx-auto max-w-xl">
+        <h2 class="text-3xl font-bold mb-8 text-center text-blue-700">
+          Contact Me
+        </h2>
+        <form class="space-y-4 flex flex-col items-center justify-center">
+          <input
+            type="text"
+            placeholder="Your Name"
+            class="w-full border border-gray-300 rounded p-2"
+          />
+          <input
+            type="email"
+            placeholder="Your Email"
+            class="w-full border border-gray-300 rounded p-2"
+          />
+          <textarea
+            placeholder="Your Message"
+            rows="5"
+            class="w-full border border-gray-300 rounded p-2"
+          ></textarea>
+
+          <button
+            type="submit"
+            class="w-72 bg-blue-600 rounded-full hover:scale-110 ease-in-out duration-300 hover:bg-blue-700 text-white py-2 transition"
+            fdprocessedid="qra01"
+          >
+            Send Message
+          </button>
+        </form>
+
+        <div class="flex justify-center space-x-5 mt-6">
+          <a href="https://www.github.com/VigneshPoojary-05"
+            ><img
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg"
+              alt="GitHub"
+              class="h-6"
+          /></a>
+          <a href="https://www.linkedin.com/in/vigneshpoojary"
+            ><img
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg"
+              alt="LinkedIn"
+              class="h-6"
+          /></a>
+          <a href="https://www.behance.net/vigneshpoojary"
+            ><img
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/behance.svg"
+              alt="Behance"
+              class="h-6"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white text-center py-4">
+      <p>&copy; 2025 Vignesh Poojary. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
